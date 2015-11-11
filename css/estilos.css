@@ -55,10 +55,6 @@ body{
 
 }
 
-#size{
-  font-size: 30px;
-}
-
 .container{
 	width: auto;
   	max-width: 820px;
@@ -89,12 +85,25 @@ body{
 #shield{
     margin-top: 8px;
     margin-left: 16px;
+    display: none;
+
 }
 
 .list{
     list-style-type: disc;
+    display: none;
 }
 
 .page-header{
     margin-top: 0px;
 }
+
+#title{
+  font-size: 30px;
+}
+
+#lala{
+    display: none;
+}
+
+

@@ -1,0 +1,46 @@
+{
+	"es":{
+		"titles":{
+      		"title1": "Acerca de Cyriax",
+      		"title2": "Documentación",
+      		"title3": "Descargar",
+      		"title4": "Acerca de mi"
+  		},
+      	"datos_nav1_i1":{
+      		"title": "Acerca de Cyriax",
+      		"text": "Es un Firewall que trabaja en conjunto con Netfilter/iptables para bloquear ataques en las tres capas superiores del modelo TCP/IP. Es software libre, está escrito en C++ y se utilizó la biblioteca Qt para la interfaz gráfica de usuario."
+      	},
+      	"datos_nav1_i2":{
+      		"title": "Características del software",
+      		"text": "",
+			"list":[
+    			{"Name": "Permite visualizar en tiempo real el flujo de paquetes."
+    			},
+    			{"Name": "Permite visualizar información detallada de los paquetes entrantes, salientes y bloqueados."
+    			},
+    			{"Name": "Permite agregar módulos de bloqueo ya definidos."
+    			},
+    			{"Name": "Permite agregar reglas de bloqueo sin la necesidad de conocimientos de iptables."
+    			},
+  				{"Name": "Permite el bloqueo de cadenas de caracteres."
+    			},
+    			{"Name": "Permite definir un rango de tiempo para realizar un bloqueo."
+    			},
+    			{"Name": "Bajo Licencia GPL3."
+    			}
+					]
+      	}
+    },
+	"en": {
+		"titles":{
+	  		"title1": "About Cyriax",
+      		"title2": "Documentation",
+      		"title3": "Download",
+      		"title4": "About Me"
+      	},
+      	"datos_nav1_i1":{
+      		"title": "About Cyriax",
+      		"text": "It's a firewall that works in conjunction with Netfilter/iptables to block attacks in the three layers above the TCP/IP model. It's free software, written in C ++ and Qt library for graphical user interface is used."
+     	}
+    }
+}

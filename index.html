@@ -18,20 +18,19 @@
   <title>-- Cyriax --</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
 
   <!-- Bootstrap theme -->
-  <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
 
   <link rel="stylesheet" type="text/css" href="css/estilos.css">
 
   <link rel="stylesheet" type="text/css" href="css/octicons.css">
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
-    <script src="js/ext/html5shiv.min.js"></script>
-    <script src="js/ext/respond.min.js"></script>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
 
 </head>
@@ -58,17 +57,11 @@
         <a class="navbar-brand">CYRIAX</a>
       </div>
       <div class="navbar-collapse collapse">
-        <ul id="navES"  class="nav navbar-nav">
-          <li id="nav1" class="active"><a href="#">Acerca de Cyriax</a></li>
-          <li id="nav2"><a href="#">Documentación</a></li>
-          <li id="nav3"><a href="#">Descargar</a></li>
-          <li id="nav4"><a href="#">Acerca de mi</a></li>
-        </ul>
-        <ul id="navEN" class="nav navbar-nav">
-          <li id="nav5" class="active"><a href="#">About Cyriax</a></li>
-          <li id="nav6"><a href="#">Documentation</a></li>
-          <li id="nav7"><a href="#">Download</a></li>
-          <li id="nav8"><a href="#">About Me</a></li>
+        <ul id="titles" class="nav navbar-nav">
+          <li id="nav1"class="active"><a href="#"><span id="title1">Acerca de Cyriax</span></a></li>
+          <li id="nav2"><a href="#"><span id="title2">Documentación</span></a></li>
+          <li id="nav3"><a href="#"><span id="title3">Descargar</span></a></li>
+          <li id="nav4"><a href="#"><span id="title4">Acerca de mi</span></a></li>
         </ul>
         <span id="shield" class="mega-octicon octicon-shield"></span>
         <ul class="nav navbar-nav navbar-right">
@@ -81,102 +74,38 @@
 
   <div class="container">
 
-    <div id="nav1-1" class="jumbotron">
+    <div id="data" class="jumbotron">
       <div class="page-header">
-        <h1 id="size">Acerca de Cyriax</h1>
+        <h1 id="title">Acerca de Cyriax</h1>
       </div>
-      <p class="lala">Es un Firewall que trabaja en conjunto con Netfilter/iptables para bloquear ataques en las tres capas superiores del modelo TCP/IP. Es software libre, está escrito en C++ y se utilizó la biblioteca Qt para la interfaz gráfica de usuario.</p>
-    </div>
-
-    <div id="nav5-1" class="jumbotron">
-      <div class="page-header">
-        <h1 id="size">About Cyriax</h1>
-      </div>
-      <p>It's a Firewall application that works in conjunction with Netfilter/iptables. Cyriax allows blocking external attacks to a computer connected to the internet and has special features to block attacks from the application layer of the TCP/IP model.</p>
-    </div>
-
-    <div id="nav1-2" class="jumbotron">
-      <div class="page-header">
-        <h1 id="size">Características del software</h1>
-      </div>
+      <p id="text">Es un Firewall que trabaja en conjunto con Netfilter/iptables para bloquear ataques en las tres capas superiores del modelo TCP/IP. Es software libre, está escrito en C++ y se utilizó la biblioteca Qt para la interfaz gráfica de usuario.</p>
       <ul class="list">
-        <li>Permite visualizar en tiempo real el flujo de paquetes.</li>
         <br>
-        <li>Permite visualizar información detallada de los paquetes entrantes, salientes y bloqueados.</li>
-        <br>
-        <li>Permite agregar módulos de bloqueo ya definidos.</li>
-        <br>
-        <li>Permite agregar reglas de bloqueo sin la necesidad de conocimientos de iptables.</li>
-        <br>
-        <li>Permite el bloqueo de cadenas de caracteres.</li>
-        <br>
-        <li>Permite definir un rango de tiempo para realizar un bloqueo.</li>
-        <br>
-        <li>Bajo Licencia GPL3.</li>
+        <li> 
+        <span class="Name"></span>
+        </li>
       </ul>
-    </div>
-
-    <div id="nav5-2" class="jumbotron">
-      <div class="page-header">
-        <h1 id="size">About Cyriax</h1>
+      <div id="lala">
+        <span class="mega-octicon octicon-file-pdf"></span>
+        <span class="mega-octicon octicon-logo-github"></span>
+        <span class="mega-octicon octicon-info"></span>
+        <img src="img/foto.jpg" class="img-thumbnail" alt="foto">
       </div>
-      <p>Mensaje 2 (inglés)</p>
-    </div>
-
-    <div id="nav1-3" class="jumbotron">
-      <div class="page-header">
-        <h1 id="size">Algun título</h1>
-      </div>
-      <p>Textoooooooooooooooooo...</p>
-    </div>
-
-    <div id="nav5-3" class="jumbotron">
-      <div class="page-header">
-        <h1 id="size">About Cyriax</h1>
-      </div>
-      <p>Mensaje 3 (inglés)</p>
-    </div>
-
-    <div id="nav2-1" class="jumbotron">
-      <div class="page-header">
-        <h1 id="size">Documentación</h1>
-      </div>
-      <p>Mensaje 1 (español)</p> <span class="mega-octicon octicon-file-pdf"></span>
-    </div>
-
-    <div id="nav6-1" class="jumbotron">
-      <div class="page-header">
-        <h1 id="size">Documentation</h1>
-      </div>
-      <p>Mensaje 1 (inglés)</p> <span class="mega-octicon octicon-file-pdf"></span>
-    </div>
-
-    <div id="nav3-1" class="jumbotron">
-      <div class="page-header">
-        <h1 id="size">Descargar</h1>
-      </div>
-      <p>Mensaje 1 (español)</p> <span class="mega-octicon octicon-logo-github"></span>
-    </div>
-
-    <div id="nav4-1" class="jumbotron">
-      <div class="page-header">
-        <h1 id="size">Acerca de mi</h1>
-      </div>
-      <span class="mega-octicon octicon-info"></span>
-      <img src="img/foto.jpg" class="img-thumbnail" alt="foto">
     </div>
 
   </div> <!-- /container -->
 
-  <script type="text/javascript" src="js/ext/jquery-1.11.3.min.js"></script>
-  <script type="text/javascript" src="js/ext/jQueryRotateCompressed.2.2.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script type="text/javascript" src="js/background.js"></script>
+  <script type="text/javascript" src="js/ext/jQueryRotateCompressed.2.2.js"></script>
+  <script type="text/javascript" src="js/ext/jquery.loadJSON.js"></script>
   <script type="text/javascript" src="js/functions.js"></script>
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="js/docs.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/ext/docs.min.js"></script>
+
 
   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-  <script type="text/javascript" src="js/ie10-viewport-bug-workaround.js"></script>
+  <script type="text/javascript" src="js/ext/ie10-viewport-bug-workaround.js"></script>
 
 </body>
 
